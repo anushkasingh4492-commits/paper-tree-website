@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "npx serve public",
-    "start": "npx serve public"
+    "start": "serve public",
+    "build": "node -e \"console.log('Static website ready to deploy')\""
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
   }
 }
