@@ -14,7 +14,7 @@ export default function Home() {
     >
       <iframe
         src="/index.html"
-        title="Paper Tree — Home"
+        title="Paper Tree Educational Studio"
         style={{
           display: "block",
           width: "100%",
