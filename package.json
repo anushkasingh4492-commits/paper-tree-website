@@ -3,13 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "serve public",
-    "build": "node -e \"console.log('Static website ready to deploy')\""
+    "build": "node -e \"console.log('Paper Tree static landing page ready')\"",
+    "start": "serve public"
   },
   "dependencies": {
     "serve": "^14.2.4"
-  },
-  "devDependencies": {
-    "@types/react": "^19.3.0"
   }
 }
