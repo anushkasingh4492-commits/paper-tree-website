@@ -56,9 +56,10 @@ export default async function RootLayout({
                   </form>
                 </>
               ) : (
-                <a href="/login" className="shellbtn">
-                  Login
-                </a>
+                <>
+                  <a href="/login" className="shellink">Login</a>
+                  <a href="/login" className="shellbtn">Sign in</a>
+                </>
               )}
             </div>
           </div>
